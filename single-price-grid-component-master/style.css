@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Karla', sans-serif;
+}
+
+main {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05) ;
+  max-width: 800px;
+  width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+section {
+  padding: 35px;
+}
+
+.cyan {
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+}
+
+.grayish-blue {
+  background-color: hsl(179, 44%, 54%);
+  color: #fff;
+}
+
+.row {
+  display: flex;
+}
+
+.row > section {
+  flex: 1;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 34px;
+}
+
+.yellow-text {
+  color: hsl(71, 73%, 54%);
+}
+
+p {
+  font-size: 18px;
+}
+
+p.light-black {
+  color: #999;
+  margin: 7px;
+}
+
+p.faded {
+  color: hsl(203, 45%, 81%);
+  display: flex;
+  align-items: center;
+}
+
+p.faded span {
+  color: #fff;
+  font-size: 50px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05) ;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 15px;
+  padding: 20px 0;
+}
+
+ul {
+ 
+  list-style: none;
+  padding: 0;
+  opacity: 0.7;
+}
+
+ul li {
+  line-height: 28px;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
