@@ -2,7 +2,8 @@ const projects = [
   "base-apparel-coming-soon-master",
   "four-card-feature-section-master",
   "intro-component-with-signup-form-master",
-  "single-price-grid-component-master"
+  "single-price-grid-component-master",
+  "ping-coming-soon-page-master"
 ];
 
 const list = document.getElementById("list");
