@@ -3,7 +3,8 @@ const projects = [
   "four-card-feature-section-master",
   "intro-component-with-signup-form-master",
   "single-price-grid-component-master",
-  "ping-coming-soon-page-master"
+  "ping-coming-soon-page-master",
+  "sign in-up form"
 ];
 
 const list = document.getElementById("list");
