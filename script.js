@@ -4,7 +4,7 @@ const projects = [
   "intro-component-with-signup-form-master",
   "single-price-grid-component-master",
   "ping-coming-soon-page-master",
-  "sign in-up form",
+  "sign-in-up-form",
   "random-picker"
 ];
 
