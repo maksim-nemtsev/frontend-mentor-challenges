@@ -6,7 +6,7 @@ const projects = [
   "ping-coming-soon-page-master",
   "sign-in-up-form",
   "random-picker",
-  "huddle-landing-page-with-alternating-feature-blocks-master"
+  "huddle-landing-page-master"
 ];
 
 const list = document.getElementById("list");
