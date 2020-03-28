@@ -5,7 +5,8 @@ const projects = [
   "single-price-grid-component-master",
   "ping-coming-soon-page-master",
   "sign-in-up-form",
-  "random-picker"
+  "random-picker",
+  "huddle-landing-page-with-alternating-feature-blocks-master"
 ];
 
 const list = document.getElementById("list");
