@@ -6,7 +6,8 @@ const projects = [
   "ping-coming-soon-page-master",
   "sign-in-up-form",
   "random-picker",
-  "huddle-landing-page-master"
+  "huddle-landing-page-master",
+  "fylo-landing-page-master"
 ];
 
 const list = document.getElementById("list");
@@ -18,7 +19,7 @@ projects.forEach((project, i) => {
   link.innerText = `${formatProjectName(project)}`;
 
   const img = document.createElement("img");
-  img.src = `/${project}/design/desktop-design.jpg`;
+  img.src = `/${project}/design/desktop-preview.jpg`;
 
   link.prepend(img);
   listItem.appendChild(link);
