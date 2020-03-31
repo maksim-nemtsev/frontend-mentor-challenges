@@ -65,8 +65,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  border: 1px solid rgb(197, 148, 230);
+button:hover { 
   background-color: rgb(55, 135, 189);
   color: rgb(255, 211, 161);
 }
@@ -92,7 +91,7 @@ button:hover {
 }
 
 .social-links a:hover {
-  border: 1px solid rgb(197, 148, 230);
+  border: 1px solid rgb(253, 251, 255);
   background-color: rgb(255, 211, 161);
   color: rgb(93, 137, 218);
 }
