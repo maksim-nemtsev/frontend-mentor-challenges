@@ -8,7 +8,8 @@ const projects = [
   "random-picker",
   "huddle-landing-page-master",
   "fylo-landing-page-master",
-  "huddle-single-section-master"
+  "huddle-single-section-master",
+  "insure-landing-page-master"
 ];
 
 const list = document.getElementById("list");
