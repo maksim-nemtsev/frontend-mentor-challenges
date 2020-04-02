@@ -14,7 +14,7 @@ const projects = [
 
 const list = document.getElementById("list");
 
-projects.forEach((project, i) => {
+projects.forEach((project) => {
   const listItem = document.createElement("li");
   const link = document.createElement("a");
   link.href = `/${project}/index.html`;

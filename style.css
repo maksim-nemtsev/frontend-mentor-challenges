@@ -62,4 +62,5 @@ footer {
 
 footer a {
   color: rgb(118, 182, 255);
+  cursor: pointer;
 }
