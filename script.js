@@ -9,7 +9,8 @@ const projects = [
   "huddle-landing-page-master",
   "fylo-landing-page-master",
   "huddle-single-section-master",
-  "insure-landing-page-master"
+  "insure-landing-page-master",
+  "pricing-component-with-toggle-master"
 ];
 
 const list = document.getElementById("list");

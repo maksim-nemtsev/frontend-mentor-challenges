@@ -1,52 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | pricing-component-with-toggle-master</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Our Pricing</h1>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+      <div class="toggle-container">
+        <span>Annually</span>
+        <span>          
+          <input 
+          type="checkbox" 
+          name="toggle" 
+          id="toggle" 
+          unchecked
+          />
+          <label for="toggle">
+            <div class="ball"></div>
+          </label>
+        </span>
+        <span>Monthly</span>
+      </div>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+      <div id="flex-toggle" class="flex">
 
-  Our Pricing
-  Annually
-  Monthly
+        <div class="price-box">
+        <h4>Basic</h4>
+        <p>
+          <span class="monthly">
+            &dollar;19.99
+          </span>
+          <span class="annually">
+            &dollar;199.99
+          </span>          
+        </p>
+        <ul>
+          <li>500 GB Storage</li>
+          <li>2 Users Allowed</li>
+          <li>Send up to 3 GB</li>
+        </ul>
+        <button>Learn More</button>
+      </div>
 
-  Basic
-  &dollar;19.99
-  &dollar;199.99
-  500 GB Storage
-  2 Users Allowed
-  Send up to 3 GB
-  Learn More
+        <div class="price-box price-box-premium">
+          <h4>Professional</h4>
+          <p>
+            <span class="monthly">
+              &dollar;24.99
+            </span>
+            <span class="annually">
+              &dollar;249.99
+            </span>
+          </p>
+          <ul>
+            <li>1 TB Storage</li>
+            <li>5 Users Allowed</li>
+            <li>Send up to 10 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </div>
 
-  Professional
-  &dollar;24.99
-  &dollar;249.99
-  1 TB Storage
-  5 Users Allowed
-  Send up to 10 GB
-  Learn More
+        <div class="price-box">
+          <h4>Master</h4>
+          <p>
+            <span class="monthly">
+              &dollar;39.99
+            </span>
+            <span class="annually">
+              &dollar;399.99
+            </span>
+          </p>
+          <ul>
+            <li>2 TB Storage</li>
+            <li>10 Users Allowed</li>
+            <li>Send up to 20 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </div>
 
-  Master
-  &dollar;39.99
-  &dollar;399.99
-  2 TB Storage
-  10 Users Allowed
-  Send up to 20 GB
-  Learn More
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
