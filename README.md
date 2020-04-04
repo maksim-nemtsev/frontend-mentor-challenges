@@ -4,4 +4,4 @@
 
 ## [watch site hear](https://determined-bardeen-970f50.netlify.com)
 
-### [telegram](http://tlgg.ru/programmingafter30)
+### [Telegram](http://tlgg.ru/programmingafter30)
