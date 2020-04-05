@@ -55,6 +55,8 @@ img {
   text-align: center;
 }
 
+/* div flex */
+
 .flex {
   display: flex;
   align-items: center;
@@ -76,6 +78,8 @@ header {
   background-position: center center;
   padding: 40px 0;
 }
+
+/* nav */
 
 nav {
   align-items: center;
@@ -106,6 +110,8 @@ nav {
 .box img {
   width: 80%;
 }
+
+/* footer */
 
 footer {
   background-color: hsl(192, 100%, 9%);
@@ -144,6 +150,8 @@ footer .circle {
 footer p {
   text-align: right;
 }
+
+/* media */
 
 @media screen and (max-width: 768px) {
   body {

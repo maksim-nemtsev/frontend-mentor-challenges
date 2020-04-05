@@ -31,6 +31,8 @@ h2 {
   font-weight: 300;
 }
 
+/* form */
+
 form {
   display: flex;
   align-items: flex-start;
@@ -134,9 +136,13 @@ button:hover {
   color: white;
 }
 
+/* footer */
+
 footer p {
   color: hsl(0, 0%, 59%);
 }
+
+/* media */
 
 @media screen and (max-width: 650px) {
   form {

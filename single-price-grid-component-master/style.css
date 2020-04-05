@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -11,18 +11,20 @@ body {
   justify-content: center;
   margin: 0;
   min-height: 100vh;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 main {
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05) ;
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
   max-width: 800px;
   width: 800px;
   margin: auto;
   overflow: hidden;
 }
+
+/* section */
 
 section {
   padding: 35px;
@@ -37,6 +39,8 @@ section {
   background-color: hsl(179, 44%, 54%);
   color: #fff;
 }
+
+/* row */
 
 .row {
   display: flex;
@@ -80,10 +84,10 @@ button {
   background-color: hsl(71, 73%, 54%);
   border-radius: 5px;
   border: none;
-  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05) ;
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
   color: #fff;
   font-size: 18px;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 700;
   width: 100%;
   margin-top: 15px;
@@ -91,7 +95,6 @@ button {
 }
 
 ul {
- 
   list-style: none;
   padding: 0;
   opacity: 0.7;
@@ -100,6 +103,8 @@ ul {
 ul li {
   line-height: 28px;
 }
+
+/* media */
 
 @media screen and (max-width: 600px) {
   .row {

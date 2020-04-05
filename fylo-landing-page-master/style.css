@@ -39,6 +39,8 @@ h2 {
   color: hsl(170, 45%, 43%);
 }
 
+/* div flex */
+
 .flex {
   display: flex;
   align-items: center;
@@ -192,6 +194,8 @@ button {
   width: 50%;
 }
 
+/* footer */
+
 footer {
   background-color: hsl(243, 87%, 12%);
   color: #fff;
@@ -236,6 +240,8 @@ footer p {
     text-align: center;
   }
 
+  /* nav */
+
   nav {
     flex-direction: column;
     margin: 10px 0;
@@ -249,6 +255,8 @@ footer p {
     background-image: url("./images/bg-curve-mobile.svg");
     height: 80px;
   }
+
+  /* div flex */
 
   .flex {
     flex-direction: column;
@@ -286,6 +294,8 @@ footer p {
   .user-info {
     justify-content: center;
   }
+
+  /* footer */
 
   footer ul {
     padding: 0;

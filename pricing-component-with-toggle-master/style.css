@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -10,14 +10,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   min-height: 100vh;
 }
 
 body::before {
-  content: '';
-  background-image: url('./images/bg-top.svg');
+  content: "";
+  background-image: url("./images/bg-top.svg");
   background-repeat: no-repeat;
   background-position: top right;
   position: absolute;
@@ -29,8 +29,8 @@ body::before {
 }
 
 body::after {
-  content: '';
-  background-image: url('./images/bg-bottom.svg');
+  content: "";
+  background-image: url("./images/bg-bottom.svg");
   background-repeat: no-repeat;
   background-position: bottom left;
   position: absolute;
@@ -41,6 +41,8 @@ body::after {
   height: 100%;
   z-index: -1;
 }
+
+/* container */
 
 .container {
   margin: auto;
@@ -55,7 +57,7 @@ body::after {
 }
 
 h1 {
-  color:hsl(233, 13%, 49%);
+  color: hsl(233, 13%, 49%);
 }
 
 p {
@@ -79,9 +81,9 @@ p {
 .price-box.price-box-premium {
   background-image: linear-gradient(
     to right,
-  hsl(236, 72%, 79%), 
-  hsl(237, 63%, 64%)
-  );  
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
   color: #fff;
   transform: scale(1.15);
 }
@@ -121,19 +123,19 @@ p {
 .price-box ul li {
   border-bottom: 1px solid hsl(233, 30%, 89%);
   font-size: 15px;
-  padding: 15px 0; 
+  padding: 15px 0;
 }
 
 .price-box button {
   background-image: linear-gradient(
     to right,
-  hsl(236, 72%, 79%), 
-  hsl(237, 63%, 64%)
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
   );
   border: none;
   border-radius: 5px;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
   margin-top: 10px;
   padding: 15px;
@@ -149,10 +151,10 @@ p {
 
 .price-box.price-box-premium ul,
 .price-box.price-box-premium ul li {
-	border-color: #f0f0f0;
+  border-color: #f0f0f0;
 }
 .price-box.price-box-premium p {
-	color: #fff;
+  color: #fff;
 }
 
 .toggle-container {
@@ -164,8 +166,8 @@ p {
 .toggle-container label {
   background-image: linear-gradient(
     to right,
-  hsl(236, 72%, 79%), 
-  hsl(237, 63%, 64%)
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
   );
   border-radius: 50px;
   cursor: pointer;
@@ -193,8 +195,10 @@ p {
 }
 
 .toggle-container input:checked + label .ball {
-	transform: translateX(30px);
+  transform: translateX(30px);
 }
+
+/* media */
 
 @media screen and (max-width: 980px) {
   .flex {

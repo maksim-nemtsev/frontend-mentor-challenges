@@ -73,6 +73,8 @@ p {
   color: var(--dark-violet);
 }
 
+/* container */
+
 .container {
   padding: 0 20px;
   margin: 0 auto;
@@ -94,7 +96,8 @@ p {
   align-items: flex-start;
 }
 
-/* Nav styling */
+/* Nav */
+
 nav {
   background-color: #fff;
   position: fixed;
@@ -129,7 +132,8 @@ nav li a {
   text-decoration: none;
 }
 
-/* Header styling */
+/* header */
+
 header {
   background-color: var(--dark-violet);
   color: #fff;
@@ -174,7 +178,8 @@ header::before {
   margin-bottom: -250px;
 }
 
-/* Section styling */
+/* section */
+
 .bg-violet {
   background-color: var(--dark-violet);
   background-image: url("./images/bg-pattern-how-we-work-desktop.svg");
@@ -196,7 +201,8 @@ header::before {
   margin-top: 80px;
 }
 
-/* Footer styling */
+/* footer */
+
 footer {
   background-color: var(--very-light-gray);
   background-image: url("./images/bg-pattern-footer-desktop.svg");
@@ -234,6 +240,8 @@ footer li a {
   margin-bottom: 30px;
 }
 
+/* media */
+
 @media screen and (max-width: 768px) {
   body {
     text-align: center;
@@ -242,6 +250,8 @@ footer li a {
   .flex {
     flex-direction: column;
   }
+
+  /* nav */
 
   nav {
     padding: 20px 0;
@@ -305,6 +315,8 @@ footer li a {
     color: #fff;
   }
 
+  /* header */
+
   header {
     padding-top: 0;
     margin-bottom: 50px;
@@ -339,6 +351,8 @@ footer li a {
     margin-bottom: 20px;
     width: 100%;
   }
+
+  /* footer */
 
   footer {
     background-image: url(./images/bg-pattern-footer-mobile.svg);
