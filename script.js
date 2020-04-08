@@ -10,7 +10,8 @@ const projects = [
   "fylo-landing-page-master",
   "huddle-single-section-master",
   "insure-landing-page-master",
-  "pricing-component-with-toggle-master"
+  "pricing-component-with-toggle-master",
+  "clipboard-landing-page-master"
 ];
 
 const list = document.getElementById("list");
